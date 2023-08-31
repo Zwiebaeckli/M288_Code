@@ -9,27 +9,18 @@ nicht ein mathematisches Gleichheitszeichen!!!
 /*
 Beispiel 1 - Stadt und Land ausgeben
  */
-let city = 'Zürich';
-const country = 'Schweiz';
-console.log(city);
-console.log(country);
+let snowBoardLabel1 = 'Burton';
+let snowBoardLabel2 = 'Firefly';
+const manufacturer1 = 'USA'
+const manufacturer2 = 'Switzerland';
 
-//Verbindung von zwei Strings
-let location = city + ', ' + country;
-console.log(location);
+console.log(snowBoardLabel1);
+console.log(snowBoardLabel2);
+console.log(manufacturer1);
+console.log(manufacturer2);
 
-//neue Stadt setzen
-city = "Bern";
-location = city + ', ' + country;
-console.log(location);
+let motto = 'Buy a ' + snowBoardLabel1 + ' and you fly over snow. Of course made in ' + manufacturer1;
+console.log(motto);
 
-
-//neues Land und neue Stadt
-city = "Roma";
-//country = "Italia"; //TypeError: Assignment to constant variable.
-const country2 = "Italia";
-location = city + ', ' + country2;
-console.log(location);
-
-
-
+motto = 'Buy a ' + snowBoardLabel2 + ' and you fly over snow. Of course made in ' + manufacturer1;
+console.log(motto)
