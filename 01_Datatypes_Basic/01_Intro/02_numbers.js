@@ -6,8 +6,8 @@ Thema: Variablen, Zahlen
 Beispiel - Umwandlung eines Menschenalters in Hundejahre
  */
 
-let age = 26;
-let dogYears = (age + 1) / 7;
+let humanYears = 17;
+let dogYears = (humanYears + 1) / 7;
 
-console.log(dogYears);
-console.log(`Hundejahre sind: ${dogYears}`);
+//console.log(humanYears+ ' Menschen-Jahre entsprechen '+ dogYears + ' Hunde-Jahre.');
+console.log(`${humanYears} Menschen-Jahre entsprechen ${dogYears} Hunde-Jahre.`);
