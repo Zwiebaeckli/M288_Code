@@ -4,6 +4,7 @@ Tasks: Compare variables based on the given comments below.
 let a = 5;
 let b = 5;
 //Compare a and b if are equal only by value.
+
 //Print the result of the comparison on the console.
 //??
 //Compare a and b if are equal only by value.
